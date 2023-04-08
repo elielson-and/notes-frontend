@@ -7,9 +7,6 @@ import vue from '@vitejs/plugin-vue'
 export default defineConfig({
   plugins: [
     vue(),
-    require('cssnano')({
-        preset: 'default',
-    }),
   ],
   resolve: {
     alias: {
